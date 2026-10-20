@@ -168,7 +168,7 @@ $JSONLD    = json_encode([
                         </div>
                     </div>
                     <div class="text-center mt-4">
-                        <a class="btn btn-outline-dark px-5 py-3 fw-bolder" href="projects.php">View all our work <i class="bi bi-arrow-right"></i></a>
+                        <a class="btn btn-outline-dark px-5 py-3 fw-bolder" href="projects.php">See more selected work <i class="bi bi-arrow-right"></i></a>
                     </div>
                 </div>
             </section>

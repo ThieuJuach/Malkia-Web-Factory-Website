@@ -1,5 +1,5 @@
 <?php
-$TITLE     = 'Our Work - Websites for researchers & organizations | Malkia Web Factory';
+$TITLE     = 'Selected Work - Websites for researchers & organizations | Malkia Web Factory';
 $DESC      = 'Selected work by Malkia Web Factory — websites built for researchers, NGOs, non-profits, and mission-driven organizations.';
 $CANONICAL = 'projects.php';
 $ACTIVE    = 'work';
@@ -16,8 +16,8 @@ $ACTIVE    = 'work';
             <header class="py-5 bg-navy">
                 <div class="container px-5 text-center">
                     <div class="section-eyebrow mb-2">Our Work</div>
-                    <h1 class="fw-bolder text-white mb-3">Sites we've built</h1>
-                    <p class="lead text-white-50 mb-0">A selection of websites we've designed and built for researchers, organizations, and institutions.</p>
+                    <h1 class="fw-bolder text-white mb-3">Selected work</h1>
+                    <p class="lead text-white-50 mb-0">A few highlights from the websites we've designed and built for researchers, organizations, and institutions.</p>
                 </div>
             </header>
             <!-- Projects-->
@@ -59,6 +59,7 @@ $ACTIVE    = 'work';
                         </div>
                     </div>
                     <div class="text-center mt-4">
+                        <p class="text-muted mb-2">This is a curated selection - more examples are available on request.</p>
                         <p class="text-muted mb-4">Want to see your project here? Let's build something that does justice to your work.</p>
                         <a class="btn btn-primary btn-lg px-5 py-3 fw-bolder" href="contact.php">Start Your Website</a>
                     </div>

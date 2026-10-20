@@ -1,0 +1,15 @@
+# Real SMTP credentials — copy includes/mail-config.example.php instead
+includes/mail-config.php
+
+# Secrets / environment
+.env
+.env.*
+
+# Logs (contact form fallback log, PHP errors)
+*.log
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

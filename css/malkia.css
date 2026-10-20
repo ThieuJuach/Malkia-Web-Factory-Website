@@ -1,0 +1,168 @@
+/* Malkia Web Factory brand overrides for the Personal theme */
+:root {
+  --mk-navy: #152238;
+  --mk-navy-2: #1e3358;
+  --mk-gold: #d9a441;
+  --mk-gold-dark: #b9862c;
+  --mk-cream: #fcfbf8;
+  --bs-primary: #152238;
+  --bs-primary-rgb: 21, 34, 56;
+  --bs-secondary: #d9a441;
+  --bs-secondary-rgb: 217, 164, 65;
+}
+
+body {
+  background-color: var(--mk-cream);
+  color: #2b3648;
+}
+
+/* Typography accent */
+.text-primary { color: var(--mk-navy) !important; }
+.text-secondary, .text-gold { color: var(--mk-gold) !important; }
+
+/* Buttons */
+.btn-primary {
+  --bs-btn-bg: var(--mk-gold);
+  --bs-btn-border-color: var(--mk-gold);
+  --bs-btn-color: var(--mk-navy);
+  --bs-btn-hover-bg: var(--mk-gold-dark);
+  --bs-btn-hover-border-color: var(--mk-gold-dark);
+  --bs-btn-hover-color: #fff;
+  --bs-btn-active-bg: var(--mk-gold-dark);
+  --bs-btn-active-border-color: var(--mk-gold-dark);
+  font-weight: 700;
+}
+.btn-outline-dark {
+  --bs-btn-color: var(--mk-navy);
+  --bs-btn-border-color: var(--mk-navy);
+  --bs-btn-hover-bg: var(--mk-navy);
+  --bs-btn-hover-border-color: var(--mk-navy);
+  --bs-btn-active-bg: var(--mk-navy);
+}
+
+/* Navbar brand */
+.navbar-brand img { height: 38px; width: auto; }
+.navbar .nav-link { color: var(--mk-navy) !important; }
+.navbar .nav-link:hover { color: var(--mk-gold) !important; }
+
+/* Gradients */
+.bg-gradient-primary-to-secondary {
+  background: var(--mk-navy);
+  background: linear-gradient(135deg, var(--mk-navy) 0%, var(--mk-navy-2) 60%, var(--mk-gold) 140%);
+}
+.text-gradient {
+  background: -webkit-linear-gradient(315deg, var(--mk-navy) 0%, var(--mk-gold) 100%);
+  background: linear-gradient(315deg, var(--mk-navy) 0%, var(--mk-gold) 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.badge.bg-gradient-primary-to-secondary { color: #fff !important; }
+
+/* Dots recolor */
+.profile .dots-1 svg { fill: var(--mk-gold); }
+.profile .dots-2 svg { fill: #ffffff; }
+.profile .dots-3 svg { fill: #ffffff; }
+.profile .dots-4 svg { fill: var(--mk-gold); }
+
+/* Logo card in hero */
+.logo-card {
+  background: #ffffff;
+  border-radius: 1.5rem;
+  padding: 2.5rem;
+  box-shadow: 0 30px 60px -25px rgba(21, 34, 56, 0.45);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo-card img { max-width: 100%; height: auto; }
+
+/* Section helpers */
+.section-eyebrow {
+  color: var(--mk-gold);
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+.bg-navy { background-color: var(--mk-navy) !important; color: #f2f4f8; }
+.bg-navy .text-primary { color: #fff !important; }
+
+/* Feature icon */
+.feature.mk {
+  background: linear-gradient(135deg, var(--mk-navy) 0%, var(--mk-gold) 130%);
+  color: #fff;
+  border-radius: 0.85rem;
+}
+
+/* Process step number */
+.step-num {
+  font-size: 2.25rem;
+  font-weight: 800;
+  color: var(--mk-gold);
+  line-height: 1;
+}
+
+/* Pricing */
+.price-card { transition: transform .2s ease, box-shadow .2s ease; }
+.price-card:hover { transform: translateY(-6px); box-shadow: 0 24px 50px -24px rgba(21,34,56,.4); }
+.price-card.popular { border: 2px solid var(--mk-gold); }
+.price-tag { color: var(--mk-navy); font-weight: 800; }
+
+/* FAQ accordion */
+.accordion-button:not(.collapsed) {
+  color: var(--mk-navy);
+  background-color: rgba(217, 164, 65, 0.12);
+  box-shadow: none;
+}
+.accordion-button:focus { box-shadow: none; border-color: var(--mk-gold); }
+
+/* Footer */
+footer.bg-navy a { color: var(--mk-gold); text-decoration: none; }
+footer.bg-navy a:hover { text-decoration: underline; }
+
+/* Contact icon */
+.contact-icon {
+  height: 3rem; width: 3rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  border-radius: 0.85rem;
+  background: rgba(217,164,65,0.15);
+  color: var(--mk-gold);
+  font-size: 1.35rem;
+}
+
+/* ---- About section translucent logo watermark ---- */
+.has-watermark { position: relative; overflow: hidden; }
+.has-watermark::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -4%;
+  transform: translateY(-50%);
+  width: min(560px, 55%);
+  aspect-ratio: 1 / 1;
+  background: url("../assets/logo-watermark.png") no-repeat center / contain;
+  opacity: 0.10;
+  pointer-events: none;
+  z-index: 0;
+}
+.has-watermark > .container { position: relative; z-index: 1; }
+@media (max-width: 991.98px) {
+  .has-watermark::before { right: -20%; width: 90%; opacity: 0.06; }
+}
+
+/* ---- UX polish ---- */
+html { scroll-behavior: smooth; }
+.navbar.sticky-top { backdrop-filter: saturate(140%) blur(4px); }
+a { transition: color .15s ease; }
+.card { transition: transform .2s ease, box-shadow .2s ease; }
+.card:hover { transform: translateY(-4px); box-shadow: 0 20px 45px -25px rgba(21,34,56,.45) !important; }
+.feature.mk {
+  height: 3.25rem; width: 3.25rem;
+  display: inline-flex; align-items: center; justify-content: center;
+  font-size: 1.35rem;
+}
+.btn { transition: transform .12s ease, background-color .15s ease, box-shadow .15s ease; }
+.btn:active { transform: translateY(1px); }
+:focus-visible { outline: 3px solid var(--mk-gold); outline-offset: 2px; }
+img { max-width: 100%; }

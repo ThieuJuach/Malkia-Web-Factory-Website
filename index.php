@@ -32,7 +32,6 @@ $JSONLD    = json_encode([
                     <div class="row gx-5 align-items-center">
                         <div class="col-xxl-6">
                             <div class="text-center text-xxl-start">
-                                <div class="mk-pill mb-4 mk-rise" style="--i:0"><span class="mk-dot"></span>Custom-coded &middot; No templates &middot; Built to last</div>
                                 <div class="fs-3 fw-light mk-muted mk-rise" style="--i:1">Turning complex work into</div>
                                 <h1 class="display-3 fw-bolder mb-4 mk-rise" style="--i:2"><span class="text-shine d-inline">clear, professional websites</span></h1>
                                 <p class="lead fw-normal mb-4 mk-rise" style="--i:3">We help researchers, NGOs, non-profits, and mission-driven organizations turn complex work into clear, modern websites that are easy to navigate and built to last.</p>
@@ -86,39 +85,44 @@ $JSONLD    = json_encode([
             <!-- About-->
             <section class="py-5 bg-white has-watermark" id="about">
                 <div class="container px-5 position-relative">
-                    <div class="row gx-5 align-items-center">
-                        <div class="col-lg-6 mb-5 mb-lg-0">
+                    <!-- About (stacked above What We Do) -->
+                    <div class="row gx-5">
+                        <div class="col-lg-9">
                             <div class="section-eyebrow mb-2">About</div>
                             <h2 class="fw-bolder text-primary mb-4">About Malkia Web Factory</h2>
                             <p class="lead fw-normal text-muted mb-4">Malkia Web Factory is a web development studio focused on helping organizations with meaningful work build a digital presence.</p>
                             <p class="text-muted mb-4">We understand the gap between meaningful work and the web. Whether you're a researcher, an NGO, or a community-led organization, the challenge is the same: important work that most websites fail to communicate clearly. Our job is to bridge that gap, structuring and presenting your work in a way that is both professional and accessible.</p>
                             <p class="text-muted mb-0">We work with researchers, professors, NGOs, non-profits, refugee-led organizations, and institutions, delivering websites that are simple, reliable, and built for long-term use.</p>
                         </div>
-                        <div class="col-lg-6">
+                    </div>
+                    <!-- What We Do -->
+                    <hr class="my-5" />
+                    <div class="row gx-5">
+                        <div class="col-lg-9 mb-4">
                             <div class="section-eyebrow mb-2">What We Do</div>
-                            <h3 class="fw-bolder text-primary mb-4">We design and build custom websites for researchers, non-profits, and mission-driven organizations.</h3>
-                            <div class="row gy-4">
-                                <div class="col-md-6">
-                                    <div class="feature mk mb-3"><i class="bi bi-layout-text-window-reverse"></i></div>
-                                    <h6 class="fw-bolder">Clearly presents your work</h6>
-                                    <p class="text-muted small mb-0">Publications, projects, and mission organized so visitors actually understand what you do.</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature mk mb-3"><i class="bi bi-graph-up-arrow"></i></div>
-                                    <h6 class="fw-bolder">Improves visibility &amp; credibility</h6>
-                                    <p class="text-muted small mb-0">SEO-optimized structure helps the right people find you - partners, funders, collaborators, and press.</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature mk mb-3"><i class="bi bi-search-heart"></i></div>
-                                    <h6 class="fw-bolder">Easy for funders to find you</h6>
-                                    <p class="text-muted small mb-0">A professional digital home that signals quality, focus, and longevity.</p>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="feature mk mb-3"><i class="bi bi-code-slash"></i></div>
-                                    <h6 class="fw-bolder">Custom code, no bloat</h6>
-                                    <p class="text-muted small mb-0">Hand-built, fast, and maintainable - no page builders, no template debt.</p>
-                                </div>
-                            </div>
+                            <h3 class="fw-bolder text-primary mb-0">We design and build custom websites for researchers, non-profits, and mission-driven organizations.</h3>
+                        </div>
+                    </div>
+                    <div class="row gx-5 gy-4">
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature mk mb-3"><i class="bi bi-layout-text-window-reverse"></i></div>
+                            <h6 class="fw-bolder">Clearly presents your work</h6>
+                            <p class="text-muted small mb-0">Publications, projects, and mission organized so visitors actually understand what you do.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature mk mb-3"><i class="bi bi-graph-up-arrow"></i></div>
+                            <h6 class="fw-bolder">Improves visibility &amp; credibility</h6>
+                            <p class="text-muted small mb-0">SEO-optimized structure helps the right people find you - partners, funders, collaborators, and press.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature mk mb-3"><i class="bi bi-search-heart"></i></div>
+                            <h6 class="fw-bolder">Easy for funders to find you</h6>
+                            <p class="text-muted small mb-0">A professional digital home that signals quality, focus, and longevity.</p>
+                        </div>
+                        <div class="col-md-6 col-lg-3">
+                            <div class="feature mk mb-3"><i class="bi bi-code-slash"></i></div>
+                            <h6 class="fw-bolder">Custom code, no bloat</h6>
+                            <p class="text-muted small mb-0">Hand-built, fast, and maintainable - no page builders, no template debt.</p>
                         </div>
                     </div>
                 </div>

@@ -59,7 +59,6 @@ $ACTIVE    = 'work';
                         </div>
                     </div>
                     <div class="text-center mt-4">
-                        <p class="text-muted mb-2">This is a curated selection - more examples are available on request.</p>
                         <p class="text-muted mb-4">Want to see your project here? Let's build something that does justice to your work.</p>
                         <a class="btn btn-primary btn-lg px-5 py-3 fw-bolder" href="contact.php">Start Your Website</a>
                     </div>

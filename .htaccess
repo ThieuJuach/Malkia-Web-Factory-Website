@@ -1,0 +1,13 @@
+# Malkia Web Factory — access hardening (Apache 2.4 / LiteSpeed)
+
+# Hide dot-files and dot-folders (.git, .gitignore, .env, .htaccess) but keep
+# /.well-known/ reachable for SSL certificate validation.
+RedirectMatch 404 /\.(?!well-known/)
+
+# Hide repo docs and config templates.
+<FilesMatch "(?i)^(README\.md|.*\.example\.php)$">
+    Require all denied
+</FilesMatch>
+
+# Never list directory contents.
+Options -Indexes

@@ -1,0 +1,2 @@
+# Partials and config are loaded by PHP from disk, never over HTTP.
+Require all denied

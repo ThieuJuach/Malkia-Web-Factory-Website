@@ -48,6 +48,28 @@ $ACTIVE    = 'work';
                         </div>
                         <div class="col-lg-6 mb-4">
                             <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+                                <img class="card-img-top" src="assets/portfolio-nyandior.jpg" alt="Nyandior Pads Initiative website landing page screenshot" loading="lazy" />
+                                <div class="card-body p-4">
+                                    <div class="section-eyebrow mb-2">Non-profit</div>
+                                    <h5 class="fw-bolder">Nyandior Pads Initiative</h5>
+                                    <p class="text-muted">A website for a non-profit providing reusable sanitary pads and menstrual health education to girls in Kakuma Refugee Camp and South Sudan, presenting its services, projects, and impact.</p>
+                                    <a class="fw-bolder text-decoration-none text-gold" href="https://palegreen-locust-830862.hostingersite.com/index.html" target="_blank" rel="noopener">Preview site <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
+                                <img class="card-img-top" src="assets/portfolio-american-descendants-of-refugees.jpg" alt="American Descendants of Refugees website landing page screenshot" loading="lazy" />
+                                <div class="card-body p-4">
+                                    <div class="section-eyebrow mb-2">Community archive</div>
+                                    <h5 class="fw-bolder">American Descendants of Refugees</h5>
+                                    <p class="text-muted">A community archive and directory of Americans whose families arrived as refugees, with browsable profiles, personal stories, and a way for visitors to contribute their own.</p>
+                                    <a class="fw-bolder text-decoration-none text-gold" href="https://beige-anteater-562685.hostingersite.com/" target="_blank" rel="noopener">Preview site <i class="bi bi-arrow-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 mb-4">
+                            <div class="card border-0 shadow-sm h-100 rounded-4 overflow-hidden">
                                 <img class="card-img-top" src="assets/portfolio-malkia-old.png" alt="Original Malkia Web Factory website landing page screenshot" loading="lazy" />
                                 <div class="card-body p-4">
                                     <div class="section-eyebrow mb-2">Studio site</div>

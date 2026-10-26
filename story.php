@@ -54,7 +54,7 @@ $JSONLD    = json_encode([
                                 <div class="card-body">
                                     <div class="feature mk mb-3 mx-auto" style="height:4rem;width:4rem;font-size:1.75rem;"><i class="bi bi-person-workspace"></i></div>
                                     <h5 class="fw-bolder mb-1">Andrew Juach</h5>
-                                    <div class="text-gold fw-bold small text-uppercase mb-2" style="letter-spacing:.08em;">Co-Founder &amp; Lead Software Developer</div>
+                                    <div class="text-gold fw-bold small text-uppercase mb-2" style="letter-spacing:.08em;">Founder &amp; Lead Software Developer</div>
                                     <p class="text-muted small mb-3">BSc. Applied Computer Technology Graduate</p>
                                     <a class="btn btn-outline-dark btn-sm px-3 fw-bolder" href="https://www.linkedin.com/in/andrew-thieu-juach-0b5a00272/" target="_blank" rel="noopener"><i class="bi bi-linkedin"></i> LinkedIn</a>
                                 </div>
